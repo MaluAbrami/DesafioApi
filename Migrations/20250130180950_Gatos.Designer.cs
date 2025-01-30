@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DesafioApi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250128183214_Gatos")]
+    [Migration("20250130180950_Gatos")]
     partial class Gatos
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
