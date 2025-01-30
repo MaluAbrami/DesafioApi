@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DesafioApi\\DesafioApi.csproj": {}
+    "C:\\DesafioApi\\TesteDesafioApi\\TesteDesafioApi.csproj": {}
   },
   "projects": {
-    "C:\\DesafioApi\\DesafioApi.csproj": {
+    "C:\\DesafioApi\\TesteDesafioApi\\TesteDesafioApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DesafioApi\\DesafioApi.csproj",
-        "projectName": "DesafioApi",
-        "projectPath": "C:\\DesafioApi\\DesafioApi.csproj",
+        "projectUniqueName": "C:\\DesafioApi\\TesteDesafioApi\\TesteDesafioApi.csproj",
+        "projectName": "TesteDesafioApi",
+        "projectPath": "C:\\DesafioApi\\TesteDesafioApi\\TesteDesafioApi.csproj",
         "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
-        "outputPath": "C:\\DesafioApi\\obj\\",
+        "outputPath": "C:\\DesafioApi\\TesteDesafioApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,23 +44,21 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "MSTest.TestAdapter": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[2.2.3, )"
             },
-            "Pomelo.EntityFrameworkCore.MySql": {
+            "MSTest.TestFramework": {
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[2.2.3, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[16.9.4, )"
             },
-            "xunit": {
+            "coverlet.collector": {
               "target": "Package",
-              "version": "[2.4.2, )"
+              "version": "[3.0.2, )"
             }
           },
           "imports": [
@@ -74,9 +72,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
