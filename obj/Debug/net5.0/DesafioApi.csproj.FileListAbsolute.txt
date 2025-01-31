@@ -38,3 +38,4 @@ C:\Users\maria\OneDrive\Área de Trabalho\Desafio\DesafioApi\obj\Debug\net5.0\De
 C:\Users\maria\OneDrive\Área de Trabalho\Desafio\DesafioApi\obj\Debug\net5.0\ref\DesafioApi.dll
 C:\Users\maria\OneDrive\Área de Trabalho\Desafio\DesafioApi\obj\Debug\net5.0\DesafioApi.pdb
 C:\Users\maria\OneDrive\Área de Trabalho\Desafio\DesafioApi\obj\Debug\net5.0\DesafioApi.genruntimeconfig.cache
+C:\Users\maria\OneDrive\Área de Trabalho\Desafio\DesafioApi\bin\Debug\net5.0\DesafioAPI.postman_collection.json

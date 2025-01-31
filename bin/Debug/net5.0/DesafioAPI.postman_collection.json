@@ -1,0 +1,295 @@
+{
+	"info": {
+		"_postman_id": "6cae763b-ebeb-4113-922f-5f34aece3f42",
+		"name": "DesafioAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36629993"
+	},
+	"item": [
+		{
+			"name": "AtualizarRacasNoBanco",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/Raca/atualizarRacasNoBanco",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Raca",
+						"atualizarRacasNoBanco"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarRacasDisponiveis",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/Raca/listarRacasDisponiveis",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Raca",
+						"listarRacasDisponiveis"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BuscarImagemPorRaca",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Raca/buscarImagem/American%20Bobtail",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Raca",
+						"buscarImagem",
+						"American%20Bobtail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AdquirirInformacoesDaRaca",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/Raca/adquirirInformacoesDaRaca/American%20Bobtail",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Raca",
+						"adquirirInformacoesDaRaca",
+						"American%20Bobtail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AdicionarGato",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"string\",\r\n    \"raca\": \"string\",\r\n    \"descricao\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Gato/adicionarGato",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Gato",
+						"adicionarGato"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ListarGatos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/Gato/listarGatos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Gato",
+						"listarGatos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BuscarGatoPorRaca",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/Gato/listarGatosPorRaca/American%20Bobtail",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Gato",
+						"listarGatosPorRaca",
+						"American%20Bobtail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BuscarGatoPorId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/api/Gato/buscarGato/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Gato",
+						"buscarGato",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AtualizarGato",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"string\",\r\n    \"raca\": \"string\",\r\n    \"descricao\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Gato/atualizarGato/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Gato",
+						"atualizarGato",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeletarGato",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"string\",\r\n    \"raca\": \"string\",\r\n    \"descricao\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Gato/deletarGato/1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Gato",
+						"deletarGato",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeletarTodosOsGatos",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"string\",\r\n    \"raca\": \"string\",\r\n    \"descricao\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5001/api/Gato/deletarTodosOsGatos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"Gato",
+						"deletarTodosOsGatos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
